@@ -1,7 +1,26 @@
 {% extends "layout.html" %}
 
 {% block body %}
-<div class="container d-flex justify-content-lg-start">
-    <p>This is the testing text!</p>
+<div class="p-3 mb-2 bg-light text-dark">
+    <div class="container d-flex justify-content-lg-start">
+        <h1>Welcome to my website!</h1>
+    </div>
+    <div class="container">
+        <p>
+            I'm currently a financial and data analyst working for Cambrex. In my free time, I enjoy reading, powerlifting, playing guitar, and hanging out with my dog.
+        </p>
+        <p>
+            On the left is an image of my wife and I from our trip we took to Colorado to celebrate my brother-in-law's wedding. The right is our dog Teddy. &#128062;
+        </p>
+        <div class="row">
+            <div class="col-md-6">
+                <img src="static/Colorado Pic.jpg" class="rounded w-100" alt="responsive image">
+            </div>
+            <div class="col-md-6">
+                <img src="static/Ted.jpg" class="rounded w-100" alt="responsive image">
+            </div>
+        </div>
+    </div>
 </div>
+
 {% endblock %}

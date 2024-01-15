@@ -1,4 +1,6 @@
 import os
+import requests
+import json
 
 from flask import Flask, render_template, request, redirect
 
@@ -8,6 +10,7 @@ app = Flask(__name__, template_folder='templates')
 @app.route("/")
 def index():
     return render_template("index.html")
+
 
 @app.route("/about")
 def home():
