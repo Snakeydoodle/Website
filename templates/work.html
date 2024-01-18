@@ -1,5 +1,60 @@
-{% extends "layout.html" %}
+{% extends "layout.html" %} {% block body %}
 
-{% block body %}
-    <p class="container justify-content-lg-start">This text is for my projects!</p>
+<br>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-6">
+            <h2 class="bg-dark text-white rounded text-center">Resume</h2>
+            <h2 class="text-center">Jacob Norgaard</h2>
+            <p class="text-center">(712) 790-6910 | jakenorg@outlook.com | 636 Ellston Ave | Ames, IA 50014</p>
+
+            <h3 class="strong">EDUCATION</h3>
+            <p>University of Iowa – Tippie College of Business, Iowa City, IA | May 2020</p>
+            <p>Bachelor of Business Administration – Finance</p>
+
+            <h3 class="strong">WORK EXPERIENCE</h3>
+
+            <h4>Cambrex, Remote | October 2022 – Present</h4>
+            <p>
+                <em>Financial and Data Analyst</em>
+            </p>
+            <ul>
+                <li>Developed and managed a comprehensive suite of 16 PowerBI reports, delivering essential insights into financial performance and operational efficiencies while saving the finance team 240 hours a year</li>
+                <li>Established and helped build a dedicated finance team SQL server through Azure Synapse, streamlining data retrieval from SAP, Sharepoint, and shared network drives</li>
+                <li>Implemented a Power automate flow to distribute our margin analysis data to our executive team</li>
+                <li>Demonstrated strong problem-solving skills by troubleshooting data discrepancies, optimizing data visualization, and providing recommended process improvements.</li>
+            </ul>
+
+            <h4>Danfoss Power Solutions, Remote | May 2020 – October 2022</h4>
+            <p>
+                <em>Global Pricing Team</em>
+            </p>
+            <ul>
+                <li>Partnered with business unit leaders across the company to provide guidance and expertise in determining new net pricing for “low flyer” legacy products</li>
+                <li>Strategically reviewed and prepared data for business unit leaders to make key business decisions based on sales data and upcoming pricing needs</li>
+                <li>Sole administrator of DPS price tool which is utilized company-wide by sales team members to create customer quotations</li>
+            </ul>
+
+            <p>
+                <em>Pricing Specialist</em>
+            </p>
+            <ul>
+                <li>Fully owned and regularly improved company-wide annual pricing tool (QMT) to ensure all internal account managers were exceedingly equipped for external pricing negotiations and agreements</li>
+                <li>Facilitated over 100 hours of pricing lifecycle training in order to fully train new Pricing Manager in result of company carve-out</li>
+                <li>Coordinated John Deere’s material index price adjustment project with key global pricing stakeholders</li>
+                <li>Created and ensured proper formatting of over 80 customer input files to gather and store necessary data for APT file generation</li>
+            </ul>
+
+            <h4>SOFTWARE</h4>
+            <p>Azure Synapse Analytics, SAP, VBA, Excel, PowerBI, Microsoft SSMS, Microsoft Office</p>
+
+            <h4>LANGUAGES</h4>
+            <p>Python, HTML, CSS, JavaScript, SQL, DAX, VBA, C</p>
+        </div>
+        <div class="col-md-6">
+            <h2 class="bg-dark text-white rounded text-center">Projects</h2>
+            <video src="/static/League of Legends PowerBI Dashboard.mp4" class="img-fluid"></video>
+        </div>
+    </div>
+</div>
 {% endblock %}
